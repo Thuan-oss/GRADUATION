@@ -135,7 +135,7 @@ document.addEventListener('click', () => {
 
 // Đếm ngược đến ngày tốt nghiệp
 function startCountdown() {
-    var countDownDate = new Date('2026-01-23T16:30:00').getTime();
+    var countDownDate = new Date('2026-01-23T10:30:00').getTime();
     var countdownEl = document.getElementById('countdown');
     if (!countdownEl) return;
     function pad(num) {
@@ -157,4 +157,5 @@ function startCountdown() {
     }
     updateCountdown();
     var timer = setInterval(updateCountdown, 1000);
+
 } 
